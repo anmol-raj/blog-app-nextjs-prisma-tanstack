@@ -1,9 +1,13 @@
+"use client";
+
 import ButtonAction from "@/components/ButtonAction";
+import BackButton from "@/components/BackButton";
 import React from "react";
 
 const BlogDetailPage = () => {
   return (
     <div>
+      <BackButton />
       <div className="mb-8">
         <h2 className="text-2xl font-semibold my-4">Post One</h2>
         <ButtonAction />
